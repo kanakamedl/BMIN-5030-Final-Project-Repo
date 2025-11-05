@@ -1,0 +1,25 @@
+Setting & deployment: 
+Epic SmartForm with integrated CDS went live 4/4/2025 at 32 CHOP primary care sites; SmartLists support referral/medication orders; links/ActLinks provide pathway access; CER rules automate specific branching (e.g., age ≤6).
+
+Primary outcome:
+Reduction in unnecessary expedited neurology referrals (pre/post SmartForm).
+Secondary outcomes. (a) Pathway adherence (measured via discrete SmartForm fields vs pathway rules), (b) CDS acceptance (rate at which recommendations are followed), (c) Patient outcomes (ED visits, ultimate neurology referral, med starts)
+
+Data sources:
+  SmartForm discrete fields (point totals, key features) and SmartList selections (referral type, medication orders).
+  Referral events (standard vs expedited) with timestamps and destination.
+  ED/neurology utilization within defined follow-up windows (e.g., 7/30/90 days
+
+Cohorts & windows:
+  Baseline (pre): pathway + SmartPhrase period before SmartForm go-live.
+  Post: after 2025-04-04.
+  Unit of analysis: index primary-care headache visit (exclude non-headache visits)
+
+Planned analyses:
+  Adoption/usage: SmartForm utilization rate by site/provider; completion of required elements.
+  Referral appropriateness: proportion expedited vs standard; change pre/post; site-adjusted comparisons.
+  CDS acceptance: recommendation vs action (accepted/overridden); reasons for override (if captured).
+  Outcomes: ED visit within X days; time to neurology; abortive/preventive med initiation.
+  Visuals: run charts of expedited referral rate; control charts by site; stacked bars for acceptance; Sankey of CDS → action
+
+Risks & confounders. Provider referral habits, case-mix differences, seasonality, concurrent initiatives. Plan: site/provider fixed effects; sensitivity analyses by age strata and severity. Data validation questions are listed in your deck and will be addressed with chart audits/logic checks.
